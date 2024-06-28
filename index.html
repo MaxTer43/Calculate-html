@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cálculo de Volumen de Talud</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Cálculo de Volumen de Talud</h1>
+    <form id="volume-form">
+      <label for="area">Área transversal A(x):</label>
+      <input type="text" id="area" name="area" required>
+      <label for="start">Inicio (a):</label>
+      <input type="number" id="start" name="start" required>
+      <label for="end">Fin (b):</label>
+      <input type="number" id="end" name="end" required>
+      <button type="submit">Calcular</button>
+    </form>
+    <div id="result"></div>
+    <canvas id="chart"></canvas>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
